@@ -1,0 +1,26 @@
+.loginpage {
+    margin-top: 200px;
+}
+
+.loginform {
+    margin: auto;
+    max-width: 330px;
+}
+
+.loginheader{
+    margin: auto;
+    width: 150px;
+}
+
+.input-group {
+    padding: 10px
+}
+
+#submitbtn {
+    width:30%;
+    margin-left: 120px;
+}
+
+#submittext {
+    padding-left: 55px;
+}

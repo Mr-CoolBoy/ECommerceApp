@@ -1,0 +1,49 @@
+<div class="root">
+  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Angular Amazon Cognito</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navbarContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a> <!--*ngIf="!isAuthenticated" -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/products" routerLinkActive="active">Products</a>
+            <!--*ngIf="!isAuthenticated" -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/orders" routerLinkActive="active">Orders</a>
+            <!--*ngIf="!isAuthenticated" -->
+          </li>
+          <li class="nav-item navLast2">
+            <a class="nav-link" routerLink="/signup" routerLinkActive="active">Signup</a>
+            <!--*ngIf="!isAuthenticated" -->
+          </li>
+          <li class="nav-item navLast">
+            <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a> <!--*ngIf="!isAuthenticated" -->
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" routerLink="" (click)="signOut()" >Sign out</a> 
+          </li> --> <!--*ngIf="isAuthenticated" -->
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" routerLink="" (click)="signOut()" >Sign out</a> 
+          </li> --> <!--*ngIf="isAuthenticated" -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>

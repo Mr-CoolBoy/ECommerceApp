@@ -1,0 +1,27 @@
+<div class="signuppage">
+    <form class="signupform">
+        <h3 class="signupheader">Sign Up Here</h3>
+        <br />
+        <div class="input-group">
+            <input required type="text" class="form-control" placeholder="First Name" [(ngModel)]="signupObj.FirstName" name="First">
+        </div>
+
+        <div class="input-group">
+            <input required type="text" class="form-control" placeholder="Last Name" [(ngModel)]="signupObj.LastName" name="Last">
+        </div>
+
+        <div class="input-group">
+            <input required type="text" class="form-control" placeholder="Username@example.com" [(ngModel)]="signupObj.EmailId" name="Email">
+        </div>
+
+        <div class="input-group">
+            <input required type="password" class="form-control" placeholder="Password" [(ngModel)]="signupObj.Password" name="Password">
+        </div>
+
+        <button id="submitbtn" class="btn btn-sm btn-primary btn-block" type="submit" (click)="onSignUp()">Sign Up</button>
+        <br />
+        <span id="submittext">Already have an account?
+            <a routerLink="/login">login</a>
+        </span>
+    </form>
+</div>

@@ -1,0 +1,26 @@
+.signuppage {
+    margin-top: 200px
+}
+
+.signupform {
+    margin: auto;
+    max-width: 330px;
+}
+
+.signupheader{
+    margin-left: 80px;
+    width: 220px;
+}
+
+.input-group {
+    padding: 10px
+}
+
+#submitbtn {
+    width:30%;
+    margin-left: 120px;
+}
+
+#submittext {
+    padding-left: 55px;
+}
